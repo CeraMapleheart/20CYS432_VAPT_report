@@ -85,8 +85,8 @@
 
 #### 7. **Appendices**
 - **Tools Used with Configurations**:
-  - Nmap version [insert version], configured with default settings.
-  - Aircrack-ng version [insert version], using standard wordlists from [insert source].
+  - Nmap version 7.95, configured with default settings.
+  - Aircrack-ng version 1.7, using standard wordlists from https://github.com/berzerk0/Probable-Wordlists/blob/master/Real-Passwords/Top12Thousand-probable-v2.txt.
   
 - **Full Command Outputs from Tests Conducted**:
   
