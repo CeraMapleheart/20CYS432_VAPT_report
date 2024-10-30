@@ -64,6 +64,8 @@
 | Default Credentials           | Router uses default admin credentials            | Screenshot of login page showing default credentials | High       |
 | Weak WPA2 Password           | Password easily crackable via dictionary attack  | Command output showing successful password crack    | High       |
 | Unencrypted Traffic          | Sensitive data transmitted without encryption    | Wireshark capture showing plaintext data           | Medium     |
+![image](https://github.com/user-attachments/assets/7bfb75cc-3eea-4c8e-ab4b-1f013cedfb69)
+
 
 ### 5. **Mitigation Strategies**
 - **Change Default Credentials**: 
