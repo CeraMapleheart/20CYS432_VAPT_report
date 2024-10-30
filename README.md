@@ -36,11 +36,11 @@
      ```
    - Capture WPA/WPA2 handshake packets.
      ```bash
-     airodump-ng --bssid [BSSID] --channel [channel] --write [file] wlan0
+     airodump-ng --bssid 10:BE:F5:A3:7A:4B --channel 9 --write test wlan0
      ```
    - Attempt to crack the captured handshake using a wordlist.
      ```bash
-     aircrack-ng [file].cap -w [wordlist]
+     aircrack-ng test.cap -w wordlist.txt
      ```
 
 #### **Step 4: Traffic Analysis**
@@ -104,7 +104,7 @@ PORT      STATE SERVICE
 
 # Aircrack-ng Output
 aircrack-ng output:
-[...]
+![image](https://github.com/user-attachments/assets/98358846-01ca-4ace-bbd5-348310e8d0f3)
 KEY FOUND! [password]
 ```
 
